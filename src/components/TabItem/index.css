@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.tab-item-container {
+  list-style-type: none;
+}
+
+.tab-btn {
+  font-family: 'Roboto';
+  color: #7b8794;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 8px;
+}
+
+.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 11px;
+}
